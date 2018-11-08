@@ -11,6 +11,15 @@ just polly fill JQuery object on window
 ### Usage
 
 ```
-// just replace jquiry with it and signalr will still work as expected
 npm i signalr-jquery-shim --save
 ```
+
+then just replace jquiry with it and signalr will still work as expected in case of angular
+add this to angular.json
+```
+"scripts": [
+              "node_modules/signalr-jquery-shim/build/signalr-jquery-shim.js",
+              "node_modules/signalr/jquery.signalR.js"
+            ]
+```
+
