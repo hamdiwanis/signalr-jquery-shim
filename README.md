@@ -12,4 +12,5 @@ just polly fill JQuery object on window
 
 ```
 // just replace jquiry with it and signalr will still work as expected
+npm i signalr-jquery-shim --save
 ```
