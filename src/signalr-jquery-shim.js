@@ -111,7 +111,7 @@ const param = function (data) {
     return( source );
 }
 
-module.exports = jQueryDeferred.extend(
+window.JQuery = jQueryDeferred.extend(
     jqueryFunction,
     jQueryDeferred,
     {

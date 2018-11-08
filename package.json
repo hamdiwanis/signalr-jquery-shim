@@ -1,24 +1,24 @@
 {
-  "name": "signalr-shimmy",
-  "version": "0.1.7",
-  "description": "JavaScript SignalR client with jQuery shimmied",
+  "name": "signalr-jquery-shim",
+  "version": "0.1.0",
+  "description": "JavaScript SignalR client without jQuery",
   "keywords": [
     "signalr"
   ],
-  "homepage": "https://github.com/praveensewak/signalr-shimmy#readme",
+  "homepage": "https://github.com/hamdiwanis/signalr-jquery-shim#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/praveensewak/signalr-shimmy.git"
+    "url": "git+https://github.com/hamdiwanis/signalr-jquery-shim.git"
   },
   "author": {
-    "name": "Praveen Sewak",
-    "url": "https://github.com/praveensewak"
+    "name": "hamdi wanis",
+    "url": "https://github.com/hamdiwanis"
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/praveensewak/signalr-shimmy/issues"
+    "url": "https://github.com/hamdiwanis/signalr-jquery-shim/issues"
   },
-  "main": "build/signalR.js",
+  "main": "build/signalr-jquery-shim.js",
   "scripts": {
     "build": "babel src --presets babel-preset-es2015 --out-dir build"
   },

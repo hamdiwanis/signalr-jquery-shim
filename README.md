@@ -3,7 +3,7 @@ A for of signale-shimmy which is based on signalr-no-jquery which is based on re
 but whithout signalr itself made to work woth other soultions for example ng2-signalr to make it work without jquery saving more than 80kb of you bundle
 
 ### how it work
-just pollyfill Jquery object on window
+just polly fill JQuery object on window
 
 ### Usage
 
